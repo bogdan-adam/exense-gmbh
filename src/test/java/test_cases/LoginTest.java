@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class LoginTest extends BaseTest {
 
     @Test
-    public static void checkAdminCanLogin() {
+    public static void checkAdminCanLoginTest() {
         WebElement loginButton = driver.findElement(By.xpath("//button[text()='Login']"));
         loginButton.click();
         WebElement newPlanButton = new WebDriverWait(driver, Duration.ofSeconds(10))

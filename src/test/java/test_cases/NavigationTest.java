@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class NavigationTest extends BaseTest {
 
     @Test
-    public static void adminCanOpenNewKeywordPackage() {
+    public static void adminCanOpenNewKeywordPackageTest() {
         WebElement loginButton = driver.findElement(By.xpath("//button[text()='Login']"));
         loginButton.click();
         WebElement newPlanButton = new WebDriverWait(driver, Duration.ofSeconds(10))
